@@ -1,35 +1,73 @@
-#navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 150px; 
-    height: 100%; 
-    background-color: #333;
-    color: white;
-    padding-top: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); 
+h1{
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
 }
 
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #393a3b;
+    padding: 10px;
+    border-radius: 10px;
+    width: 85%; /* Ancho del 85% */
+    height: 100vh; /* Altura que ocupa todo el viewport */
+    margin: 0 auto; /* Centrar horizontalmente el navbar */
+}
 
-#navbar ul {
+.nav-links {
     list-style: none;
+    display: flex;
+    flex-direction: column; /* Cambiar a diseño en columna */
+    gap: 20px; /* Espaciado entre opciones */
     padding: 0;
     margin: 0;
+    align-items: center; /* Centrar las opciones en el navbar */
 }
 
-#navbar ul li {
-    padding: 15px;
-    text-align: center;
+.nav-links li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#navbar ul li a {
-    color: white;
+a{
     text-decoration: none;
-    font-size: 18px;
-    display: block;
+    color: #c5c5c5;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: all 0.3s ease;
 }
 
-#navbar ul li a:hover {
-    background-color: #444; 
-    text-decoration: underline;
+.nav-links a {
+    text-decoration: none;
+    color: #c5c5c5;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #e9ecef;
+    border-color: #ced4da;
+}
+
+.nav-links img {
+    width: 40px; /* Ajusta el tamaño de las imágenes */
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 50%; /* Bordes redondeados para las imágenes */
 }

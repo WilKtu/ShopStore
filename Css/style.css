@@ -72,3 +72,21 @@ li{
     align-items: center;
     justify-content: center;
 }
+
+footer {
+    border-radius: 10px;
+    width: 85%; 
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #5c5c5c;
+    color: white;
+    margin-top: 20px; 
+}
+
+a#l {
+    width: 50%;
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+}

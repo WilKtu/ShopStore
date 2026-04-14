@@ -3,20 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShopStore</title>
+    <link rel="stylesheet" href="Css/Style-catalogo.css">
+    <title>Catálogo - ShopStore</title>
 </head>
 <body>
-    <button>
-        <a href="index.html">☰</a>
-    </button>
-    <h1>ShopStore</h1>
-    <button>
-        <a href="carrito.html"></a>
-    </button>
-        <div id="inicio">
-            <h2>Catálogo de Productos</h2>
-            <div id="product-container">
-               
-            </div>
+    <!-- Barra de navegación -->
+    <section id="nav">
+        <button><a href="vacio.html">☰</a></button>
+        <h1>ShopStore</h1>
+        <button><a href="carrito.html">
+            <img src="Img/carrito.png" alt="carrito de compras" width="30px">
+        </a></button>
+    </section>
+
+    <!-- Filtros de productos -->
+    <section id="filters">
+        <h2>Filtrar por:</h2>
+        <button>Categoría</button>
+        <button>Precio</button>
+        <button>Popularidad</button>
+    </section>
+
+    <!-- Catálogo de productos -->
+    <section id="catalogo">
+        <div class="product">
+            <img src="Img/camisacasual.jpegs" alt="Producto 1">
+            <h3>Camisa Casual</h3>
+            <p>$19.99</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="product">
+            <img src="Img/producto2.jpg" alt="Producto 2">
+            <h3>Vestido Elegante</h3>
+            <p>$29.99</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="product">
+            <img src="Img/producto3.jpg" alt="Producto 3">
+            <h3>Pantalón Deportivo</h3>
+            <p>$24.99</p>
+            <button>Agregar al carrito</button>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2026 ShopStore. Todos los derechos reservados.</p>
+        <p><a href="contacto.html">Contacto</a> | <a href="politicas.html">Políticas</a></p>
+    </footer>
 </body>
 </html>

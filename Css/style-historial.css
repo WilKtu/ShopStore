@@ -1,6 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+/* NAV */
 #nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #646464;
     color: white;
@@ -9,4 +16,63 @@
 
 #nav h1 {
     margin: 0;
+}
+
+#nav button {
+    background-color: #7a7a7a;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#nav button:hover {
+    background-color: #dbdbdb;
+}
+
+/* CONTENEDOR DE ÓRDENES */
+section:nth-of-type(2) {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* TARJETAS DE ÓRDENES */
+section:nth-of-type(2) div {
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 12px;
+    border-left: 6px solid #646464;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* EFECTO HOVER */
+section:nth-of-type(2) div:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+/* TEXTO */
+section:nth-of-type(2) h2 {
+    margin: 0;
+    color: #333;
+}
+
+section:nth-of-type(2) p {
+    margin: 5px 0;
+    color: #666;
+}
+
+section:nth-of-type(2) h3 {
+    margin: 5px 0 0 0;
+    color: #000;
+    font-size: 18px;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+    color: inherit;
 }

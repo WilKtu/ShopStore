@@ -1,0 +1,126 @@
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7e7e7e;
+    color: white;
+    padding: 10px 20px;
+}
+
+#nav h1 {
+    margin: 0;
+}
+
+#nav .slogan {
+    font-size: 14px;
+    color: #f1f1f1;
+    margin-top: -10px;
+}
+
+#nav button a {
+    text-decoration: none;
+    color: white;
+}
+
+.volver {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #7a7a7a;
+    color: rgb(37, 37, 37);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.volver:hover {
+    background-color: #dbdbdb;
+    transform: scale(1.05);
+}
+h1 {
+    width: 20%;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+} 
+
+#destacados {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#destacados h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#destacados .product {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+#destacados .product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#destacados .product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#destacados .product p {
+    font-size: 16px;
+    color: #656668;
+}
+
+#destacados .product button {
+    padding: 10px 15px;
+    background-color: #8b8b8b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#destacados .product button:hover {
+    background-color: #6e6e6e;
+}
+
+#explo {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #797b7e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+
+#explo:hover {
+    background-color: #dbdbdb;
+    transform: scale(1.05);
+}
+a {
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+
+#explora {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #797b7e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}

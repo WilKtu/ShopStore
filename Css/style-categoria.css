@@ -1,0 +1,278 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navigation bar */
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a4a4a;
+    color: white;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#nav h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#nav button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#nav button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Categorías */
+#categoria {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#categoria h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.categoria-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.categoria {
+    width: 45%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.categoria:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.categoria h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.producto {
+    width: 45%;
+    text-align: center;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.producto h4 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.producto p {
+    font-size: 16px;
+    color: #656668;
+}
+
+.producto button {
+    padding: 10px 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.producto button:hover {
+    background-color: #357ab8;
+}
+
+/* Ofertas por Precio */
+#precio {
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+#precio h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+#precio .oferta {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#precio .producto {
+    width: 220px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#precio .producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#precio .producto img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+#precio .producto h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#precio .producto p {
+    font-size: 16px;
+    color: #656668;
+}
+
+#precio .producto button {
+    padding: 10px 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+#precio .producto button:hover {
+    background-color: #357ab8;
+}
+
+/* Popularidad */
+#popularidad {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#popularidad h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+#popularidad .mas-vendidos,
+#popularidad .nuevos-lanzamientos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#popularidad .producto {
+    width: 220px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#popularidad .producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#popularidad .producto img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+#popularidad .producto h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#popularidad .producto p {
+    font-size: 16px;
+    color: #656668;
+}
+
+#popularidad .producto button {
+    padding: 10px 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+#popularidad .producto button:hover {
+    background-color: #357ab8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #4a4a4a;
+    color: white;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #dcdcdc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffffff;
+}

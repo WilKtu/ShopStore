@@ -1,0 +1,113 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Navigation bar */
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7e7e7e;
+    color: white;
+    padding: 10px 20px;
+}
+
+#nav h1 {
+    margin: 0;
+}
+
+#nav .slogan {
+    font-size: 14px;
+    color: #f1f1f1;
+    margin-top: -10px;
+}
+
+#nav button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* Productos destacados */
+#destacados {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#destacados h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#destacados .product {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+#destacados .product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#destacados .product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#destacados .product p {
+    font-size: 16px;
+    color: #656668;
+}
+
+#destacados .product button {
+    padding: 10px 15px;
+    background-color: #8b8b8b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#destacados .product button:hover {
+    background-color: #6e6e6e;
+}
+
+/* Botones de llamada a la acción */
+.cta {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cta .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #5f5f5f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta .btn:hover {
+    background-color: #6e6f70;
+}
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #5c5c5c;
+    color: white;
+    margin-top: 20px;
+}
